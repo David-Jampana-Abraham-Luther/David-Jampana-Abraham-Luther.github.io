@@ -1,33 +1,35 @@
-/* === General Reset === */
+/* General Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* === Fonts and Body === */
+/* Body and Font */
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #0f172a; /* dark tech background */
-  color: #f1f5f9;
+  background-color: #0f172a; /* Dark blue-gray */
+  color: #e2e8f0;
   line-height: 1.6;
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: auto;
   padding: 2rem;
 }
 
+/* Header */
 header {
-  background: linear-gradient(to right, #0f172a, #1e293b);
+  background: linear-gradient(to right, #1e293b, #0f172a);
   padding: 2rem 0;
   text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
 header h1 {
   font-size: 2.5rem;
-  color: #38bdf8; /* cyan blue accent */
+  color: #38bdf8; /* Neon blue */
 }
 
 header p {
@@ -35,27 +37,27 @@ header p {
   color: #94a3b8;
 }
 
-/* === About Section === */
+/* About Section */
 .about-section {
   background-color: #1e293b;
   padding: 3rem 2rem;
-  border-bottom: 2px solid #334155;
-}
-
-.about-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .about-image img {
-  width: 150px; /* 50% smaller */
+  width: 150px; /* ⬅️ Shrunk by 50% */
   height: auto;
   border-radius: 50%;
   border: 3px solid #38bdf8;
-  margin-bottom: 1.5rem;
   box-shadow: 0 0 15px #0ea5e9;
+}
+
+.about-text {
+  max-width: 600px;
 }
 
 .about-text h2 {
@@ -69,32 +71,28 @@ header p {
   color: #e2e8f0;
 }
 
-/* === Projects === */
+/* Featured Projects */
 .section.alt {
   background-color: #0f172a;
+  padding: 3rem 2rem;
 }
 
 .section h2 {
   font-size: 2rem;
   color: #facc15;
-  margin-bottom: 1.5rem;
   text-align: center;
-}
-
-.section ul {
-  list-style: none;
-  padding: 0;
+  margin-bottom: 2rem;
 }
 
 .section ul li {
   margin-bottom: 1rem;
   background: #1e293b;
   padding: 1rem;
-  border-left: 4px solid #38bdf8;
-  border-radius: 8px;
+  border-left: 5px solid #38bdf8;
+  border-radius: 6px;
 }
 
-/* === Contact Section === */
+/* Contact Section */
 .contact-section {
   background-color: #1e293b;
   text-align: center;
@@ -117,22 +115,13 @@ header p {
 .contact-icon:hover {
   color: #38bdf8;
   transform: scale(1.2);
+  text-shadow: 0 0 8px #38bdf8;
 }
 
-/* === Footer === */
+/* Footer */
 footer {
   background-color: #0f172a;
   text-align: center;
   padding: 1rem;
   color: #64748b;
 }
-.about-image img {
-  width: 150px;
-}
-
-.contact-icon:hover {
-  color: #38bdf8;
-  transform: scale(1.2);
-  text-shadow: 0 0 10px #38bdf8;
-}
-
