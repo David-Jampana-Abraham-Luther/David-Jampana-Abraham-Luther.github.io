@@ -48,7 +48,6 @@ Here are some of the projects showcased on the site:
 
 ---
 
-## 📂 Project Structure
 
 ## 📂 Project Structure
 
