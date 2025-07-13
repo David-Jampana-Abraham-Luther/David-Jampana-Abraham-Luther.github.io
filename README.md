@@ -4,8 +4,6 @@
 
 Welcome to my personal portfolio website! This site highlights my academic and professional projects in **data analytics**, **cybersecurity**, and **AI engineering**. It is built with **HTML, CSS**, and enhanced with smooth animations using **ScrollReveal.js**.
 
-![screenshot](profile.png)
-
 ---
 
 ## 🚀 Live Demo
@@ -52,8 +50,12 @@ Here are some of the projects showcased on the site:
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
+```text
 portfolio/
-├── index.html # Main website file
-├── style.css # Styling with dark tech aesthetic
-├── profile.png # Profile picture used on site
-├── README.md # Project documentation (this file)
+├── index.html             # Main website file
+├── style.css              # Styling with dark tech aesthetic
+├── profile.png            # Profile picture used on site
+├── README.md              # Project documentation (this file)
+
