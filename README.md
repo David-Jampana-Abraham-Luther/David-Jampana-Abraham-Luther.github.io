@@ -38,7 +38,20 @@ Here are some of the projects showcased on the site:
   Large-scale sentiment classification on social media using PySpark & NLP.
 
 ---
+🛠️ How I Built This Portfolio Website
+This project was created to showcase my data analytics and cybersecurity work in a sleek, responsive portfolio website. I built it from scratch using HTML and CSS, applying a dark, modern design inspired by tech dashboards.
 
+To enhance interactivity and aesthetics, I used:
+
+🎨 Custom CSS: For layout, color themes, responsiveness, and styling elements like cards and buttons.
+
+⚡ ScrollReveal.js: For smooth scroll-based animations that make the site feel dynamic and engaging.
+
+🌐 Font Awesome: For clean, scalable icons in the contact section.
+
+🖼️ Profile Image: Optimized and styled with shadow effects and rounded borders.
+
+The project is entirely static and lightweight — ideal for fast loading and easy deployment on GitHub Pages.
 ## 🛠️ Tech Stack
 
 - HTML5 & CSS3 (custom styles)
