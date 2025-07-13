@@ -1,5 +1,3 @@
-# David-Jampana-Abraham-Luther.github.io
-
 # 💼 David Jampana Abraham Luther – Personal Portfolio
 
 Welcome to my personal portfolio website! This site highlights my academic and professional projects in **data analytics**, **cybersecurity**, and **AI engineering**. It is built with **HTML, CSS**, and enhanced with smooth animations using **ScrollReveal.js**.
