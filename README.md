@@ -52,6 +52,8 @@ To enhance interactivity and aesthetics, I used:
 🖼️ Profile Image: Optimized and styled with shadow effects and rounded borders.
 
 The project is entirely static and lightweight — ideal for fast loading and easy deployment on GitHub Pages.
+...
+
 ## 🛠️ Tech Stack
 
 - HTML5 & CSS3 (custom styles)
